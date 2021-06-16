@@ -1,6 +1,16 @@
 $color-green: rgb(0, 255, 106);
 
-.site-header,
-.site-header__mobile-nav,
-body {
+// .grid__item.medium-up--one-whole .article__grid-image-wrapper,
+// .grid__item.medium-up--one-whole .article__grid-image-wrapper {
+//   width: 100% !important;
+//   max-width: unset !important;
+//   max-height: unset !important;
+// }
+
+.grid__item.medium-up--one-whole {
+  .article__grid-image-wrapper,
+  .article__grid-image {
+    max-width: unset !important;
+    max-height: unset !important;
+  }
 }
